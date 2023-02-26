@@ -6,10 +6,18 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
+        plugin = {
+                "pretty", // raporların daha okunakli olmasi icin
+                "html:target/default-cucumber-reports.html",
+                "json:target/json-reports/cucumber.json",
+                "junit:target/xml-report/cucumber.xml"
+        },
+        monochrome=true, // raporlarin console da okunakli sekilde cikmasi icin
         features = "./src/test/resources/features",// features folder path
         glue = "stepdefinitions", //stepdefinitions path
-        tags = "@scenario_outline_1",//tags = "@iphone or @Tesla"//tags = "@iphone and @Tesla"//tags = "@iphone"//tags = "@google_search"
+        tags = "@personel_olusturma",//tags = "@iphone or @Tesla"//tags = "@iphone and @Tesla"//tags = "@iphone"//tags = "@google_search"
         dryRun = false
+
 
 )
 
