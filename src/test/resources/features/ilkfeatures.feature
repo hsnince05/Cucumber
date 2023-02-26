@@ -35,6 +35,9 @@ Feature: ilk feature file
   #  9. Belirli Scenario lari calistirmak icin cucumber tags ler kullanilir
   #  tag ler Fetuature, Scenario, Scerio Outline, Examples kelimeleri ile birlikte kullanilabilir
   #  10.Background: Her bir Scenario kelimesinden ONCE tek bir sefer calisir
+  #  11. dryRun=false --> dryRun yokmus gibi normal sekilde calisir.Yani tum adimlari tek tek browserda acar
+  #      dryRun=true  --> yeni bir STEP(adim) eklendiginde sadece eksik(missing)-tanımlanmamıs stepdefinitions lari olusturmak icin kullanilir.
+  #      Bunun kullanilma sebebi zamandan tasarruftur
 
 
 #  1.  cucumber for java yukle

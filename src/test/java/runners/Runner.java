@@ -6,13 +6,11 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "./src/test/resources/features/ilkfeatures.feature",// features folder path
+        features = "./src/test/resources/features",// features folder path
         glue = "stepdefinitions", //stepdefinitions path
-        tags = "@google_search"
-        //tags = "@iphone or @Tesla"
-        //tags = "@iphone and @Tesla"
-        //tags = "@iphone"
-        //tags = "@google_search"
+        tags = "@scenario_outline_1",//tags = "@iphone or @Tesla"//tags = "@iphone and @Tesla"//tags = "@iphone"//tags = "@google_search"
+        dryRun = false
+
 )
 
 public class Runner {
