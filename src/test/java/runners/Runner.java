@@ -14,8 +14,8 @@ import org.junit.runner.RunWith;
         },
         monochrome=true, // raporlarin console da okunakli sekilde cikmasi icin
         features = "./src/test/resources/features",// features folder path
-        glue = "stepdefinitions", //stepdefinitions path
-        tags = "@personel_olusturma",//tags = "@iphone or @Tesla"//tags = "@iphone and @Tesla"//tags = "@iphone"//tags = "@google_search"
+        glue = {"stepdefinitions","hooks"}, //stepdefinitions path
+        tags = "@data_tables",//tags = "@iphone or @Tesla"//tags = "@iphone and @Tesla"//tags = "@iphone"//tags = "@google_search"
         dryRun = false
 
 

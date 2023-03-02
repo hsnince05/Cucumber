@@ -50,3 +50,21 @@ Yani benzer scenarioyu tekrar tekrar farkli datalarda calistirmak icin kullanili
 Scenario Outline cucumber cok Onemlidir.
 Ne zaman birden fazla data ile islem yaparsak, zaman scenario outline kullanabiliriz.
 Scenario Outline Excel ile atomasyon yapmaya benzer, tek fark, kullanimi daha kolaydir
+
+
+Scenario Outline ile DDT yapilir
+En cok kullanilan cucumber ozelliklerinden biridir
+Examples kelimesi veri girisleri icin kullanilir
+Step Definitionslardaki data tipi String dir
+Examples kelimesi en sonra kullanilir
+
+Data Tables ile DDT yapilabilir
+Test adimlarini(STEPS) data reusable yapmak icin kullanilir
+Scenario outline kadar yaygin degildir
+Examples kelimesi kullanilmaz
+Step Definitionslardaki data tipi DataTable dir
+DataTablelar ara adimlarda da(STEPS) kullanilabilir
+
+NOt: DataTables ve Scenario Outline birlikte kullanilabilir
+
+
