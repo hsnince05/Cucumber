@@ -15,8 +15,8 @@ import org.junit.runner.RunWith;
         monochrome=true, // raporlarin console da okunakli sekilde cikmasi icin
         features = "./src/test/resources/features",// features folder path
         glue = {"stepdefinitions","hooks"}, //stepdefinitions path
-        tags = "@data_tables",//tags = "@iphone or @Tesla"//tags = "@iphone and @Tesla"//tags = "@iphone"//tags = "@google_search"
-        dryRun = false
+        tags = "@excel_automation\n",//tags = "@iphone or @Tesla"//tags = "@iphone and @Tesla"//tags = "@iphone"//tags = "@google_search"
+        dryRun = true
 
 
 )
