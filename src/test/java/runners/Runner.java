@@ -10,13 +10,14 @@ import org.junit.runner.RunWith;
                 "pretty", // raporların daha okunakli olmasi icin
                 "html:target/default-cucumber-reports.html",
                 "json:target/json-reports/cucumber.json",
-                "junit:target/xml-report/cucumber.xml"
+                "junit:target/xml-report/cucumber.xml",
+                "rerun:target/failed_scenarios.txt"
         },
         monochrome=true, // raporlarin console da okunakli sekilde cikmasi icin
         features = "./src/test/resources/features",// features folder path
         glue = {"stepdefinitions","hooks"}, //stepdefinitions path
-        tags = "@excel_automation\n",//tags = "@iphone or @Tesla"//tags = "@iphone and @Tesla"//tags = "@iphone"//tags = "@google_search"
-        dryRun = true
+        tags = "@failed_scenario",//tags = "@iphone or @Tesla"//tags = "@iphone and @Tesla"//tags = "@iphone"//tags = "@google_search"
+        dryRun = false
 
 
 )

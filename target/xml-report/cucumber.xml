@@ -1,9 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="0.28" tests="1" skipped="0" failures="1" errors="0">
-<testcase classname="excel_login_feature" name="TC01_musteri_giris_testi" time="0.038">
-<failure/>
+<testsuite name="Cucumber" time="145.066" tests="6" skipped="0" failures="0" errors="0">
+<testcase classname="arama_feature_2" name="arama_testi - data - Example #1.1" time="20.937">
 <system-out><![CDATA[
-Given kullanici "customer_info" bilgileri ile giris yapar...................undefined
+Given kullanici google gider................................................passed
+When kullanici "iphone" icin arama yapar....................................passed
+Then sonuclarin "iphone" icerdigini dogrula.................................passed
+Then close the application..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="arama_feature_2" name="arama_testi - data - Example #1.2" time="28.122">
+<system-out><![CDATA[
+Given kullanici google gider................................................passed
+When kullanici "tesla" icin arama yapar.....................................passed
+Then sonuclarin "tesla" icerdigini dogrula..................................passed
+Then close the application..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="arama_feature_2" name="arama_testi - data - Example #1.3" time="14.72">
+<system-out><![CDATA[
+Given kullanici google gider................................................passed
+When kullanici "tv" icin arama yapar........................................passed
+Then sonuclarin "tv" icerdigini dogrula.....................................passed
+Then close the application..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="arama_feature_2" name="arama_testi - data - Example #1.4" time="19.311">
+<system-out><![CDATA[
+Given kullanici google gider................................................passed
+When kullanici "flower" icin arama yapar....................................passed
+Then sonuclarin "flower" icerdigini dogrula.................................passed
+Then close the application..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="arama_feature_2" name="arama_testi - data - Example #1.5" time="44.636">
+<system-out><![CDATA[
+Given kullanici google gider................................................passed
+When kullanici "cat" icin arama yapar.......................................passed
+Then sonuclarin "cat" icerdigini dogrula....................................passed
+Then close the application..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="arama_feature_2" name="arama_testi - data - Example #1.6" time="16.971">
+<system-out><![CDATA[
+Given kullanici google gider................................................passed
+When kullanici "dog" icin arama yapar.......................................passed
+Then sonuclarin "dog" icerdigini dogrula....................................passed
+Then close the application..................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
+........passed
+And kullanici last name "tez" girer.........................................passed
+And kullanici positions "BA" girer..........................................passed
+And kullanici office "Tokat" girer..........................................passed
+And kullanici extension "678" girer.........................................passed
+And kullanici start_date "2023-03-08" girer.................................passed
+And kullanici salary "870000" girer.........................................passed
+And kullanici create buttonuna basar........................................passed
+When kullanici firstname ile "ali" arar.....................................passed
+Then firstname "ali" in olustugunu test et..................................passed
+Then close the application..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="personel_olusturma" name="TC01_personel_olustur - personel_bilgileri - Example #1.4" time="4.61">
+<system-out><![CDATA[
+Given kullanici "https://editor.datatables.net/" gider......................passed
+When kullanici new butonuna tiklar..........................................passed
+And kullanici first name "feyza" girer......................................passed
+And kullanici last name "sar" girer.........................................passed
+And kullanici positions "PO" girer..........................................passed
+And kullanici office "Izmir" girer..........................................passed
+And kullanici extension "7456" girer........................................passed
+And kullanici start_date "2023-03-03" girer.................................passed
+And kullanici salary "860000" girer.........................................passed
+And kullanici create buttonuna basar........................................passed
+When kullanici firstname ile "feyza" arar...................................passed
+Then firstname "feyza" in olustugunu test et................................passed
+Then close the application..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="personel_olusturma" name="TC01_personel_olustur - personel_bilgileri - Example #1.5" time="11.076">
+<system-out><![CDATA[
+Given kullanici "https://editor.datatables.net/" gider......................passed
+When kullanici new butonuna tiklar..........................................passed
+And kullanici first name "Mukesh" girer.....................................passed
+And kullanici last name "Srivasan" girer....................................passed
+And kullanici positions "Scrum Master" girer................................passed
+And kullanici office "Haydarabat" girer.....................................passed
+And kullanici extension "980" girer.........................................passed
+And kullanici start_date "2023-03-09" girer.................................passed
+And kullanici salary "50000" girer..........................................passed
+And kullanici create buttonuna basar........................................passed
+When kullanici firstname ile "Mukesh" arar..................................passed
+Then firstname "Mukesh" in olustugunu test et...............................passed
+Then close the application..................................................passed
 ]]></system-out>
 </testcase>
 </testsuite>
