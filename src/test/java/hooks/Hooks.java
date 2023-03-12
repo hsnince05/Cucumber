@@ -11,7 +11,7 @@ public class Hooks {
     /*
        Hooks: Her bir Scenario yada Scenari Outline dan ONCE yada SONRA calismasini istedigimiz methodlar konulur
        @Before ve @After Metholdarini icerir
-       Burada onemli olan raporlama isleminin ekran goruntusuyle birlikte HOOks yardimiyla yapilmasidir.
+       Burada onemli olan raporlama isleminin ekran goruntusuyle birlikte HOOKS yardimiyla yapilmasidir.
      */
 
     @Before

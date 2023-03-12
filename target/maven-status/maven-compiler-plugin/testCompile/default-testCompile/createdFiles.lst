@@ -18,6 +18,7 @@ runners\TestRunner.class
 utilities\Driver.class
 stepdefinitions\BlueRentalCarStepDefinitions.class
 runners\FailedRunner.class
+stepdefinitions\GenelStepDefinition.class
 utilities\ExcelUtils.class
 pages\DataTablesPage.class
 utilities\ConfigReader.class

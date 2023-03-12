@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="46.086" tests="2" skipped="0" failures="1" errors="0">
-<testcase classname="hooks_test" name="TC01_google_iphone_arama" time="16.181">
+<testsuite name="Cucumber" time="33.581" tests="2" skipped="0" failures="1" errors="0">
+<testcase classname="hooks_test" name="TC01_google_iphone_arama" time="15.477">
 <failure type="java.lang.AssertionError">
 <![CDATA[java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:87)
@@ -17,7 +17,7 @@ Then sonuclarin "tea pot" icerdigini dogrula................................fail
 Then close the application..................................................skipped
 ]]></system-out>
 </testcase>
-<testcase classname="hooks_test" name="TC02_google_tesla_arama" time="29.628">
+<testcase classname="hooks_test" name="TC02_google_tesla_arama" time="17.882">
 <system-out><![CDATA[
 Given kullanici google gider................................................passed
 When kullanici "tesla" icin arama yapar.....................................passed
